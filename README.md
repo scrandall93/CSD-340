@@ -1,2 +1,4 @@
-# CSD-340
-Repository to house all projects from CSD 340.
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Professor Sue
+* Sam Crandall
