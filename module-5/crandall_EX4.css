@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(247,112,24); 
+    opacity: 20%;
+}
+
+#container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(185,63,8);
+}
+
+h3 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(185,63,8);
+}
+
+figure {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    background-color: rgba(185,63,8);
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+#image-gallery {
+    display: grid;
+    margin-top: 10%;
+}
+
+#image-item-left {
+    grid-column-start: 1;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: solid;
+    border-color: rgba(185,63,8);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#image-item-center {
+    grid-column-start: 2;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: solid;
+    border-color: rgba(185,63,8);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#image-item-right {
+    grid-column-start: 3;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    border: solid;
+    border-color: rgba(185,63,8);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#bottombox {
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    margin-top: 25%;
+    margin-bottom: 2%;
+    text-align: right;
+    text-decoration: underline;
+}
