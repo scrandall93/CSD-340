@@ -1,0 +1,136 @@
+header {
+	background-color: #17252a;
+	padding: 20px;
+	text-align: center;
+	border-bottom: solid;
+	border-radius: 15px;
+	border-color: #3aafa9;
+	color: #feffff;
+}
+
+h1 {
+	font-weight: 400px;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #17252a;
+	border-bottom: solid;
+	border-radius: 15px;
+	border-color: #3aafa9;
+	color: #feffff;
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #feffff;
+}
+
+#navbar a:hover {
+	background-color: #3aafa9;
+	color: #2b7a78;
+}
+
+#container {
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+}
+
+#card {
+	box-shadow: 0 4px 8px 0;
+	box-shadow: rgba(0,0,0,0.2);
+	transition-duration: 0.3s;
+	width: 50%;
+}
+
+#card-title {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+	width: auto;
+	color: #17252a;
+}
+
+#card-content {
+	padding: 2px 16px;
+}
+
+#card:hover {
+	box-shadow: 0 8px 16px 0;
+	box-shadow: rgba(0,0,0,0.2);
+}
+
+footer {
+	background-color: #17252a;
+	color: #feffff;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	position: fixed;
+	text-decoration: none;
+	font-style: italic;
+	left: 0;
+}
+
+.alignleft {
+	text-decoration: none;
+	color: #feffff;
+	float: left;
+}
+
+.alignright {
+	text-decoration: none;
+	color: #feffff;
+	float: right;
+}
+
+#movies {
+	box-shadow: 0 4px 8px 0;
+	box-shadow: rgba(0,0,0,0.2);
+	transition-duration: 0.3s;
+	width: 50%;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+
+#card-title2 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+	width: auto;
+	color: #17252a;
+}
+
+#card-content2 {
+	padding: 8px;
+	align-items: center;
+	align-content: center;
+	text-align: left;
+}
+
+#card-content2 table {
+	height: 100%;
+	width: 100%;
+	color: #17252a;
+}
+
+#movies th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #17252a;
+	color: #feffff;
+}
+
+#movies td {
+	border: 1px;
+	border-style: solid;
+	border-color: #ddd;
+	padding: 8px;
+}
