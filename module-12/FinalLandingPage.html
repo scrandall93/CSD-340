@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 12 Final Assignment</title>
+    <link href="../module-12/FinalLandingStylePage.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-menu">
+        <nav>
+            <ul>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Sam Crandall</h1>
+    <div class="Hobbies">
+        <div class="column">
+            <div class="card">
+                <img src="../module-12/images/Travel Image.jpg" alt="Travel" style="width:100%;height:32vw;object-fit:cover">
+                <div class="container">
+                    <h2>Traveling</h2>
+                    <p>I love to travel at any chance I get! Some of my most notable international travels have been to places like London, Paris, Amsterdam, Ireland, Italy, and all over Mexico.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../module-12/images/Learn Image.jpg" alt="Learn" style="width:100%;height:32vw;object-fit:cover">
+                <div class="container">
+                    <h2>Learning</h2>
+                    <p>As I have gotten older, I have come to appreciate trying to learn a little bit about everything. I am really interested in working with computers, but also have a love for learning new manual tasks like automobile repair, home maintenance, and more.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../module-12/images/Golf Image.jpg" alt="Golf" style="width:100%;height:32vw;object-fit:cover">
+                <div class="container">
+                    <h2>Golfing</h2>
+                    <p>One of my all time favorite hobbies is golfing. I really enjoy being outside, as well as having a goal to work towards and golfing is a perfect combo of both of those things for me.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Experience">
+        <div class="column">
+            <div class="card">
+                <img src="../module-12/images/Shipt Logo.png" alt="Shipt Grocery Delivery" style="width:100%;height:32vw;object-fit:cover">
+                <div class="container">
+                    <h2>Shipt</h2>
+                    <p>I currently work as a Supply Chain Manager for a grocery delivery business. I have been with Shipt for the past seven years, starting in the Customer Service department and working my way up through Operations. I am currently studing to get my Bachelors in Software Developement, and hope to some day work in the Engineering department at Shipt!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../module-12/images/Landstar.jpg" alt="Landstar Transportation" style="width:100%;height:32vw;object-fit:cover">
+                <div class="container">
+                    <h2>Landstar Transportation</h2>
+                    <p>Before moving to Shipt, I worked as a Freight Broker for a company called Landstar Transportation. I worked there for around a year before realizing that sales was not my long term goal. I really enjoyed my time here and now know more about trucks than most should. Did you know that, depending on the load, a truck driver has to have a certain style of tie-downs or they cannot load?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../module-12/images/Ballantrae Golf.jpg" alt="Ballantrae Golf Course" style="width:100%;height:32vw;object-fit:cover">
+                <div class="container">
+                    <h2>Ballantrae Golf Course</h2>
+                    <p>My first job was at Ballantrae Golf Course. I started working as a cart attendant when I was 16 and quickly moved into roles where we needed help. I ended up working with the grounds crew, working the pro-shop, caddying, working in the kitchen, and even being the on-course beverage person when we needed a fill in!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contactcontainer">
+      <form method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email Address">
+
+            <button onclick="save()">Send Message</button>
+
+            <script>
+                function save(){
+                    var dataToSave = document.getElementsByName("firstname","lastname","email").value;
+                    localStorage.setItem("data", dataToSave);
+                }
+                function show(){
+                    var dataToShow = localStorage.getItem("data");
+                    alert("Saved input = " + dataToShow)
+                }
+            </script>
+        </form>
+    </div>
+</body> 
+</html> 
